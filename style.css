@@ -79,16 +79,15 @@ article {
 }
 
 .container {
-    display: flex; /* Use flexbox for layout */
-    flex-wrap: wrap; /* Allow items to wrap to the next line */
-    gap: 10px; /* Optional: space between items */
+    width: 400px; /* Use flexbox for layout */
+    height:auto; /* Allow items to wrap to the next line */
+   border-radius: 30px;
 }
 
 .container img {
     width: 400px; /* Set width to 400px */
     height: auto; /* Maintain aspect ratio */
     border-radius: 10px; /* Slightly curved corners */
-    object-fit: cover; /* Ensure images cover the area without distortion */
 }
 a {
     color: inherit;
